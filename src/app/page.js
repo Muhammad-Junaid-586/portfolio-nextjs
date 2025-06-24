@@ -13,7 +13,7 @@ import ContactUs from '@/components/Contact';
 
 
 
-const page = () => {
+const Page = () => {
 
   useEffect(()=>{
   AOS.init();
@@ -57,4 +57,4 @@ AOS.init({
   )
 }
 
-export default page
+export default Page
